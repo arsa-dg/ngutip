@@ -48,7 +48,7 @@ const Quote: React.FC = () => {
   return (
     <div className="container" style={{backgroundColor: color}}>
       <div className="card">
-        <h1 style={{color: color}}>"{quote?.text}"</h1>
+        <h1 style={{color: color}}><span>"</span>{quote?.text}<span>"</span></h1>
         <h2 style={{color: color}}>- {quote?.author ? quote?.author: "unknown"}</h2>
         <div className="buttons">
           <button className="twt-btn">Tweet</button>
