@@ -43,6 +43,7 @@ const Quote: React.FC = () => {
             className="button"
             href={`https://twitter.com/intent/tweet?hashtags=ngutip&text="${quote!.text}"%0D- ${quote!.author ? quote?.author: "unknown"}%0Dngutip.netlify.app%0D`}
             target="_blank"
+            rel="noreferrer"
             style={{backgroundColor: color}}
           >
             Tweet
